@@ -42,3 +42,47 @@ i[class="bi bi-star"] {
   order: 1;
   color: rgb(255, 215, 0);
 }
+.wrapper .bottom-hover {
+  background-color: #ff0063;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  float: left;
+  margin: 0 5px;
+  border-radius: 50px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.3s ease-out;
+  color: rgb(255, 255, 255);
+}
+.wrapper .bottom-hover .ic {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 40px;
+  float: left;
+  margin-top: 3px;
+}
+bi-cart3 {
+  font-size: 15px;
+  line-height: 40px;
+}
+.wrapper .bottom-hover:hover {
+  width: 90px;
+}
+.wrapper .bottom-hover span {
+  font-size: 15px;
+  line-height: 40px;
+  margin-right: 10px;
+}
+.wrapper .bottom-hover:active {
+  color: black;
+}
+.card-img-top {
+  width: 286px;
+  height: 261px;
+  object-fit: cover;
+}
