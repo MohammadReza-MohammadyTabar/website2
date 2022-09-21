@@ -1,7 +1,44 @@
+@font-face {
+  font-family: "IRANsans";
+  src: url("FontsFree-Net-ir_sans.ttf");
+}
+* {
+  font-family: "IRANsans";
+}
 .head-image {
   margin-top: -130px;
-  margin-bottom: -130px;
 }
 .nav-item {
   margin-right: 7px;
+}
+main {
+  margin-top: 10px;
+}
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.card {
+  margin-top: 20px;
+  box-shadow: 10px 5px 5px rgb(167, 167, 167);
+}
+.card a {
+  background: rgb(214, 26, 26);
+  color: rgb(255, 255, 255);
+}
+.card-head {
+  display: flex;
+  width: 100%;
+}
+a[class="btn btn-primary"] {
+  margin: 10px 20px 5px 30px;
+
+  width: 120px;
+  height: 38px;
+}
+i[class="bi bi-star"] {
+  margin: 20px 3px 20px;
+  order: 1;
+  color: rgb(255, 215, 0);
 }
