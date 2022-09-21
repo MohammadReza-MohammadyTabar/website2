@@ -23,9 +23,19 @@ main {
   margin-top: 20px;
   box-shadow: 10px 5px 5px rgb(167, 167, 167);
 }
+.card:hover {
+  transform: scale(1.02);
+  transition: all 0.4s ease-out;
+}
 .card a {
   background: rgb(214, 26, 26);
   color: rgb(255, 255, 255);
+}
+.card-text {
+  text-align: center;
+}
+.card-title {
+  text-align: left;
 }
 .card-head {
   display: flex;
