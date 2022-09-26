@@ -5,8 +5,13 @@
 * {
   font-family: "IRANsans";
 }
+header {
+  height: 30%;
+}
 .head-image {
-  margin-top: -130px;
+  object-fit: cover;
+  height: 60%;
+  width: 100%;
 }
 .nav-item {
   margin-right: 7px;
